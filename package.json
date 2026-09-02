@@ -1,0 +1,51 @@
+{
+  "name": "sky-key-ai",
+  "version": "1.0.0",
+  "description": "Advanced gesture and voice-controlled AI assistant app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "serve": "webpack serve --mode development"
+  },
+  "keywords": [
+    "gesture-recognition",
+    "voice-control",
+    "AI-assistant",
+    "hand-detection",
+    "voice-commands"
+  ],
+  "author": "Himanshu Benwal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mediapipe": "^0.5.1635127974",
+    "tensorflow": "^4.2.0",
+    "tensorflow-js": "^4.2.0",
+    "opencv4nodejs": "^5.11.0",
+    "dotenv": "^16.0.3",
+    "axios": "^1.3.0",
+    "socket.io": "^4.5.4",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "web-speech-api": "^0.0.2",
+    "uuid": "^9.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "jest": "^29.3.1",
+    "eslint": "^8.33.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "@testing-library/react": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
